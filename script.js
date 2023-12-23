@@ -29,5 +29,13 @@ $(document).ready(function () {
     }
   });
 
-  
+   // Obtaining  user input from local storage and setting textarea values
+   $(".time-block").each(function () {
+    var timeBlockId = $(this).attr("id");
+    var storedInput = localStorage.getItem(timeBlockId);
+
+    if (storedInput) {
+      $(this).find(".description").val(storedInput);
+    }
+  });
 });
