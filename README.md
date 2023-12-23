@@ -35,4 +35,9 @@ the code isn't run until the browser has finished rendering all the elements in 
 ##Demo
 i have added the Demo that illustrates as to how the work Scheduler application works.
 it is titled Demo
- 
+
+##Url 
+https://github.com/gurvirsingh975/Workday-Schedular
+
+##Deployment URL
+https://gurvirsingh975.github.io/Workday-Schedular/ 
